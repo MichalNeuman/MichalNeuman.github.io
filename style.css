@@ -35,9 +35,7 @@
     font-weight: 700;
     color: white;
   }
-  body{
-    
-  }
+  
   .nav-list{
     display: flex;
 
@@ -62,33 +60,55 @@
 }
 
 .biuro {
-  height: 100%;
+  height: 100vh; /* Ustawia wysokość na całą wysokość widoku */
   width: 100%;
   background-image: url('desk-3076954.jpg');
   background-size: cover; /* Dopasowuje obraz do całego tła */
   background-position: center; /* Ustawia pozycję obrazu na środku tła */
-  min-height: 100vh;
-  position: relative;
-  align-items: center;
-  gap:2rem;
+  display: flex; /* Używa Flexboxa do łatwego zarządzania układem */
+  justify-content: center; /* Wyśrodkowuje zawartość w poziomie */
+  align-items: center; /* Wyśrodkowuje zawartość w pionie */
+  flex-direction: column;
+  
 }
 
+.biuro h1 {
+  font-family: "Island Moments", cursive;
+  font-size: 108px;
+  font-weight: 100;
+}
 
-.biuro h1{
-  font-family: "Island Moments",cursive;
+.biuro p {
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+  font-weight: 200;
+}
+
+.O-nas-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 80px;
+  text-align: center;
+  margin-top: 50px; /* Dodaj odstęp między poprzednim kontenerem a kontenerem O-nas */
+  
+  
+}
+.O-nas-text h1 {
+  display: block; /* Zapobiega rozciąganiu nagłówka na całą szerokość */
+  font-family: "Poppins", sans-serif;
   font-size: 96px;
   font-weight: 100;
-  align-items: center;
   
 }
-.biuro p{
-  font-family:"Poppins", sans-serif ;
-  
+.O-nas-text p{
+  max-width: 800px; /* Ustawia maksymalną szerokość tekstu na 800 pikseli */
+  margin: 0 auto;
+  font-size: medium;
+
 }
-
-
-
-
 
 
 
