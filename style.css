@@ -30,7 +30,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 33px 9%;
+    
     background: transparent;
   }
   .nav-list {
@@ -82,13 +82,13 @@
 
 .biuro h1 {
   font-family: "Island Moments", cursive;
-  font-size :  20vh;
+  font-size :  15vh;
   font-weight: 100;
 }
 
 .biuro p {
   font-family: "Poppins", sans-serif;
-  font-size: 6vh ;
+  font-size: 5vh ;
   font-weight: 200;
   display: flex;
   flex-direction: column;
@@ -110,13 +110,11 @@
 .O-nas-text h1 {
   display: flex; 
   font-family: "Poppins", sans-serif;
-  font-size: 10vh;
+  font-size: 6vh;
   font-weight: 100;
   margin: 0 auto;
-  display: flex;
+  max-width: 800px;
   justify-content: center;
-  align-items: center;
-  text-align: center;
   flex-direction: column;
   
 }
