@@ -322,12 +322,16 @@ footer .fale#fale4{
 }
 @media(max-width:425px){
   .biuro{
+    
     font-weight: 400;
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
   }
   .biuro p{
   
     font-weight: 300 !important;
+}
+.biuro h1{
+  margin-top: 300px;
 }
 }
 @media(max-width:375px){
