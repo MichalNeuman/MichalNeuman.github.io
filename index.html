@@ -19,14 +19,14 @@
 
   <body>
     <header>
-      <a  class="logo">Lucrum</a>
-      <ul class="nav-list">
+      <a class="logo" href="#">Lucrum</a>
+      <a href="javascript:void(0);" class="hamburger" onclick="toggleMenu()"><i id="hamburgerIcon" class="fa fa-bars"></i></a>
+      <ul class="nav-list" id="nav-list">
         <li><a href="#ONAS">O nas</a></li>
         <li><a href="#Uslugitxt">Usługi</a></li>
         <li><a href="#">Kontakt</a></li>
         <li><a href="#">Jakość</a></li>
       </ul>
-      <div class="bx bx-menu" id ="menu-icon"></div>
     </header>
     <section class="biuro">
       <div class="biuro-text"></div>
@@ -94,7 +94,7 @@
       <ul class="social_icon">
         <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
         <li><a href="#"><ion-icon name="call-outline"></ion-icon>+48 609 084 731</a></li>
-        <li><a href="#"><ion-icon name="home-outline"></ion-icon>44-266 Świerklany, ul. Henryka Pobożnego 31</a></li>
+        <li><a href="#" style="text-align: center;"><ion-icon name="home-outline"></ion-icon>44-266 Świerklany, ul. Henryka Pobożnego 31</a></li>
         <li><a href="#"><ion-icon name="mail-outline"></ion-icon>biuro@lucrum.org.pl</a></li>
       </ul>
     </div>
@@ -105,4 +105,5 @@
 
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
 </html>
