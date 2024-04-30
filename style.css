@@ -1,267 +1,266 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-    text-decoration: none;
-    
-    
-    
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  
+  
+  
 }
 
 .island-moments-regular {
-    font-family: "Island Moments", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
+  font-family: "Island Moments", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .whisper-regular {
-    font-family: "Whisper", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-  header{
-    list-style: none;
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 1000;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 10%;
-    padding-left: 5%;
-    background: transparent;
-  }
-  .nav-list {
-    
-    display: flex;
-    list-style: none;
-    margin-left: auto; 
-  }
+  font-family: "Whisper", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+header{
+  list-style: none;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 10%;
+  padding-left: 5%;
+  background: transparent;
+}
+.nav-list {
   
-  .nav-list a {
-    
-    color: black;
-    margin-left: 30px; 
-    font-size: 2vh;
-    font-weight: 600;
-    border-bottom: 6px solid transparent;
-    transition: all.55s ease;
-  }
+  display: flex;
+  list-style: none;
+  margin-left: auto; 
+}
+
+.nav-list a {
   
-  .logo {
-    font-size: 30px;
-    font-weight: 700;
-    color: white;
-    margin: 50px; 
-  }
-  .nav-list a:hover{
-    border-bottom: 2px solid black;
-  }
-  
-#menu-icon{
   color: black;
+  margin-left: 30px; 
   font-size: 4vh;
-  z-index: 10001;
-  cursor: pointer;
-  
+  font-weight: 600;
+  border-bottom: 6px solid transparent;
+  transition: all.55s ease;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  margin: 50px; 
+}
+.nav-list a:hover{
+  border-bottom: 2px solid black;
+}
+
+#menu-icon{
+color: black;
+font-size: 4vh;
+z-index: 10001;
+cursor: pointer;
+
 }
 
 .biuro {
 
-  height: 100vh; /* Ustawia wysokość na całą wysokość widoku */
-  width: 100%;
-  margin: auto;
-  background-image: url('desk-3076954.jpg');
-  background-size: cover; /* Dopasowuje obraz do całego tła */
-  background-position: center; /* Ustawia pozycję obrazu na środku tła */
-  display: flex; /* Używa Flexboxa do łatwego zarządzania układem */
-  justify-content: center; /* Wyśrodkowuje zawartość w poziomie */
-  align-items: center; /* Wyśrodkowuje zawartość w pionie */
-  flex-direction: column;
-  
+height: 100vh; /* Ustawia wysokość na całą wysokość widoku */
+width: 100%;
+padding-top: 270px;
+background-image: url('desk-3076954.jpg');
+background-size: cover; /* Dopasowuje obraz do całego tła */
+background-position: center; /* Ustawia pozycję obrazu na środku tła */
+display: flex; /* Używa Flexboxa do łatwego zarządzania układem */
+
+flex-direction: column;
+
 }
 
 .biuro h1 {
-  font-family: "Island Moments", cursive;
-  font-size :  15vh;
-  font-weight: 100;
-  justify-content: center; /* Wyśrodkowuje zawartość w poziomie */
-  align-items: center; /* Wyśrodkowuje zawartość w pionie */
-  margin: 0 auto;
+font-family: "Island Moments", cursive;
+font-size :  15vh;
+font-weight: 100;
+justify-content: center; /* Wyśrodkowuje zawartość w poziomie */
+align-items: center; /* Wyśrodkowuje zawartość w pionie */
+margin: 0 auto;
 }
 
 .biuro p {
   font-family: "Poppins", sans-serif;
-  justify-content: center; /* Wyśrodkowuje zawartość w poziomie */
-  align-items: center; /* Wyśrodkowuje zawartość w pionie */
   font-size: 5vh ;
   font-weight: 200;
   display: flex;
-  flex-direction: column;
-  margin: 0 auto;
+  justify-content: center; /* Wyśrodkowuje zawartość w poziomie */
+  align-items: center; /* Wyśrodkowuje zawartość w pionie */
+  padding: 0 auto;
+  text-align: center; /* Wyśrodkowuje tekst w poziomie */
 }
 
 .O-nas-text {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 0 80px;
-  text-align: center;
-  margin-top: 50px; 
-  margin-bottom: 50px;
-  max-width: 800px; 
-  margin: 0 auto;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 0 80px;
+text-align: center;
+margin-top: 50px; 
+margin-bottom: 50px;
+max-width: 800px; 
+margin: 0 auto;
 }
 .O-nas-text h1 {
-  display: flex; 
-  font-family: "Poppins", sans-serif;
-  font-size: 6vh;
-  font-weight: 100;
-  
-  max-width: 800px;
-  justify-content: center;
-  flex-direction: column;
-  
+display: flex; 
+font-family: "Poppins", sans-serif;
+font-size: 6vh;
+font-weight: 100;
+
+max-width: 800px;
+justify-content: center;
+flex-direction: column;
+
 }
 .O-nas-text p{
-   
-  
-  font-size: 3vh;
-  font-weight: 200;
-  
-  
+ 
+
+font-size: 3vh;
+font-weight: 200;
+
+
 }
 
 .Cytat {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 40px 80px; 
-  background-color: rgb(115, 115, 115);
-  color: white;
-  font-size: 24px;
-  font-weight: 200;
-  text-align: left;
-  margin: 0 auto; /* Wyśrodkowanie tekstu */
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 40px 80px; 
+background-color: rgb(115, 115, 115);
+color: white;
+font-size: 24px;
+font-weight: 200;
+text-align: left;
+margin: 0 auto; /* Wyśrodkowanie tekstu */
 }
 
 .Cytat h1 {
-  width: 100%;
-  max-width:1000px; /* Ustawia maksymalną szerokość tekstu na 800 pikseli */
-  margin: 0 auto; /* Wyśrodkowanie tekstu */
+width: 100%;
+max-width:1000px; /* Ustawia maksymalną szerokość tekstu na 800 pikseli */
+margin: 0 auto; /* Wyśrodkowanie tekstu */
 }
 .Usługi ul{
-  
-  list-style-type:  disc;/* Ustawienie stylu punktów jako kropki */
-  padding-left: 20px; /* Dodanie wcięcia dla punktów */
-  
+
+list-style-type:  disc;/* Ustawienie stylu punktów jako kropki */
+padding-left: 20px; /* Dodanie wcięcia dla punktów */
+
 }
 .Usługi{
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  align-items: center;
-  flex-direction: column;
-  font-size: 24px;
-  font-weight: 200;
-  text-align: left;
-  margin: 0 auto; /* Wyśrodkowanie tekstu */
-  line-height: 2;
-  margin-bottom: 300px;
- 
- 
- 
+margin: 0 auto;
+display: flex;
+justify-content: center;
+width: 100%;
+align-items: center;
+flex-direction: column;
+font-size: 24px;
+font-weight: 200;
+text-align: left;
+margin: 0 auto; /* Wyśrodkowanie tekstu */
+line-height: 2;
+margin-bottom: 300px;
+
+
+
 }
 .Usługi .textUS {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding-right: 100px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: left;
-  font-weight: 400;
-  
+background-color: rgba(255, 255, 255, 0.8);
+padding-right: 100px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+text-align: left;
+font-weight: 400;
+
 }
 
 .Usługi .textUS ul {
-  list-style-position: inside;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: left;
+list-style-position: inside;
+display: flex;
+justify-content: center;
+flex-direction: column;
+text-align: left;
 }
 .Usługi .textUS h1 {
-  margin-left: 20px;
+margin-left: 20px;
 }
 .tloSzcyty{
-  background-image: url('mountains-5727541_1920.jpg');
-  background-size: cover; /* Dopasowuje obraz do całego tła */
-  background-position: center; /* Ustawia pozycję obrazu na środku tła */
+background-image: url('mountains-5727541_1920.jpg');
+background-size: cover; /* Dopasowuje obraz do całego tła */
+background-position: center; /* Ustawia pozycję obrazu na środku tła */
 }
 
 body{
-  
-  justify-content: flex-end;
+
+justify-content: flex-end;
 
 }
 
 
 footer{
-  background-color: white;
-  position: relative;
-  width: 100%;
-  min-height: 200px;
-  margin-top: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+background-color: white;
+position: relative;
+width: 100%;
+min-height: 200px;
+margin-top: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
 }
 footer .social_icon, footer .menu{
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 0;
-  flex-wrap: wrap;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px 0;
+flex-wrap: wrap;
 
 }
 footer .social_icon li, footer .menu li{
-  list-style: none;
+list-style: none;
 
 
 }
 footer .social_icon li a, footer .menu li a{
-  font-size: 2em;
-  color: black;
-  margin: 0 10px;
-  display: inline-block;
-  transition: 0.5s;
-  
+font-size: 2em;
+color: black;
+margin: 0 10px;
+display: inline-block;
+transition: 0.5s;
+
 }
 footer .social_icon li a:hover{
-  transform: translateY(-10px);
+transform: translateY(-10px);
 }
 
 footer .menu li a{
-  font-size: 1.2em;
-  color: black;
-  margin: 0 10px;
-  display: inline-block;
-  opacity: 0.75;
-  text-decoration: none;
+font-size: 1.2em;
+color: black;
+margin: 0 10px;
+display: inline-block;
+opacity: 0.75;
+text-decoration: none;
 
 }
 footer .menu li a:hover{
-  opacity: 1;
+opacity: 1;
 }
 footer .fale{
 position: absolute;
@@ -274,94 +273,116 @@ background-size: 1000px 200px  ;
 }
 
 footer .fale#fale1{
-  
-  opacity: 1;
-  
-  animation: animateWave   4s linear infinite;
+
+opacity: 1;
+
+animation: animateWave   4s linear infinite;
 }
 footer .fale#fale2{
-  
-  opacity: 0.5;
-  
-  animation: animateWave   3.5s linear infinite;
+
+opacity: 0.5;
+
+animation: animateWave   3.5s linear infinite;
 }
 footer .fale#fale3{
-  
-  opacity: 0.2;
-  
-  animation: animateWave_02   3s linear infinite;
+
+opacity: 0.2;
+
+animation: animateWave_02   3s linear infinite;
 }
 footer .fale#fale4{
- 
-  opacity: 0.7;
-  
-  animation: animateWave_02   2.5s linear infinite;
+
+opacity: 0.7;
+
+animation: animateWave_02   2.5s linear infinite;
 }
 @keyframes animateWave{
-  0%{
-    background-position-x: 1000px;
-  }
-  100%{
-    background-position-x: 0px;
-  }
+0%{
+  background-position-x: 1000px;
+}
+100%{
+  background-position-x: 0px;
+}
 }
 @keyframes animateWave_02{
-  0%{
-    background-position-x: 1000px;
-  }
-  100%{
-    background-position-x: 0px;
-  }
+0%{
+  background-position-x: 1000px;
+}
+100%{
+  background-position-x: 0px;
+}
 }
 @media(max-width:1024px){
-  .biuro h1 {
-    margin-top: 175px;
+  .biuro {
+
    
+    padding-top: 275px;
     
-  }
+    
+    }
+
 }
-@media(max-width:425px){
-  .biuro{
+@media(max-width:768px){
+  .biuro {
+
+   
+    padding-top: 34%;
     
-    font-weight: 400;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    
+    }
+    .biuro h1{
+      
+      font-size: 10vh;
+    }
+    
+    
+}
+@media(max-width:426px){
+  .biuro h1{
+      padding-top: 30%;
+         font-size: 45px;
   }
   .biuro p{
-  
-    font-weight: 300 !important;
-}
-.biuro h1{
-  margin-top: 300px;
-}
-}
-@media(max-width:375px){
-  .biuro h1 {
-    margin-top: 300px;
-    font-size :  8vh;
-    font-weight: 200;
+    align-items: center;
+    justify-content: center;
     
   }
+
+
+}
+@media(max-width:376px){
+.biuro h1 {
+  margin-top: 35px;
+  font-size :  46px;
+  font-weight: 200;
+  
+}
 }.biuro p {
-  
-  font-weight: 300;
-  font-size: 3vh ;
-  
+margin-left: 0px;
+font-weight: 300;
+font-size: 3vh ;
+
 }
 @media(max-width:320px){
-  .O-nas-text h1{
+  .biuro h1 {
+    margin-top: 85px;
+    font-size :  38px;
+   
     
-    font-size: 4vh;
-    font-weight: 300;
-    
-    
-    
+  
   }
-  .O-nas-text {
-    
-    font-size: 3vh;
-    font-weight: 200;
-    
-    margin-left: 10px;
+.O-nas-text {
+  
+  font-size: 3vh;
+  font-weight: 200;
+  
+ 
 
+}footer .social_icon li a, footer .menu li a{
+  font-size: 1.5em;
+  
+  
+  
+  
   }
 }
