@@ -4,9 +4,10 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
-  
-  
-  
+
+}
+html{
+  scroll-behavior: smooth;
 }
 
 .island-moments-regular {
@@ -21,6 +22,7 @@
   font-style: normal;
 }
 header{
+  height: 80px;
   list-style: none;
   position: fixed;
   right: 0;
@@ -33,6 +35,7 @@ header{
   padding-right: 10%;
   padding-left: 5%;
   background: transparent;
+  background-color: white;
 }
 .nav-list {
   
@@ -54,7 +57,7 @@ header{
 .logo {
   font-size: 30px;
   font-weight: 700;
-  color: white;
+  color: black;
   margin: 50px; 
 }
 .nav-list a:hover{
@@ -73,7 +76,7 @@ cursor: pointer;
 
 height: 100vh; /* Ustawia wysokość na całą wysokość widoku */
 width: 100%;
-padding-top: 270px;
+padding-top: 25%;
 background-image: url('desk-3076954.jpg');
 background-size: cover; /* Dopasowuje obraz do całego tła */
 background-position: center; /* Ustawia pozycję obrazu na środku tła */
@@ -312,13 +315,45 @@ animation: animateWave_02   2.5s linear infinite;
   background-position-x: 0px;
 }
 }
-@media(max-width:1024px){
+@media(max-width:1961px){
   .biuro {
 
-   
-    padding-top: 275px;
+     
+    padding-top: 20%;
     
     
+    }
+    .biuro h1{
+      
+      font-size: 10vh;
+    }
+
+}
+@media(max-width:1441px){
+  .biuro {
+
+     
+    padding-top: 25%;
+    
+    
+    }
+    .biuro h1{
+      
+      font-size: 10vh;
+    }
+
+}
+@media(max-width:1025px){
+  .biuro {
+
+     
+    padding-top: 35%;
+    
+    
+    }
+    .biuro h1{
+      
+      font-size: 10vh;
     }
 
 }
@@ -326,7 +361,7 @@ animation: animateWave_02   2.5s linear infinite;
   .biuro {
 
    
-    padding-top: 34%;
+    padding-top: 48%;
     
     
     }
@@ -339,7 +374,7 @@ animation: animateWave_02   2.5s linear infinite;
 }
 @media(max-width:426px){
   .biuro h1{
-      padding-top: 30%;
+      padding-top: 48%;
          font-size: 45px;
   }
   .biuro p{
