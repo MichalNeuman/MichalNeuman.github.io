@@ -1,13 +1,7 @@
-function showMenu() {
-    var topnav = document.getElementById("myTopnav");
-    var hamburger = document.getElementById("hamburger");
+let menu = document.querySelector('#menu-icon');
+let navlist = document.querySelector('.nav-list');
 
-    if (topnav.className === "topnav") {
-        topnav.className = "responsive_topnav";
-        hamburger.className = "fa fa-times";
-    } else {
-        topnav.className = "topnav";
-        hamburger.className = "fa fa-bars"
-    }
-
+menu.onclick = () =>{
+    menu.classList.toggle('bx-x');
+    navlist.classList.toggle('open');
 }
