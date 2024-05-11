@@ -6,4 +6,22 @@
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" type="text/css" href="/style.css">
     </head>
+    <body class="kontakt-body">
+        <div class="kontakt-kontener">
+            <form action="https://api.web3forms.com/submit" method="POST" class="kontakt-lewo">
+                <div class="kontakt-lewo-tytul">
+                    <h2>Napisz do nas</h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="c2534f2e-3387-40a0-b070-b09e525076a4">
+                <input type="text" name="name" placeholder="Twoje imie i nazwisko" class="dane-kontakt" required>
+                <input type="email" name="email" placeholder="Twój email" class="dane-kontakt" required>
+                <textarea name="wiadomosc" placeholder="twoja wiadomosc" class="dane-kontakt"></textarea>
+                <button type="submit">Wyślij <img src="assets\arrow_icon.png" alt=""></button>
+            </form>
+          <div class="kontakt-prawo">
+            <img src="/assets/right_img.png">
+          </div>
+        </div>
+    </body>
 </html>
