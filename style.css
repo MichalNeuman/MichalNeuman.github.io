@@ -35,7 +35,7 @@ header{
   padding-right: 10%;
   padding-left: 5%;
   background: transparent;
-  background-color: white;
+  background-color: rgb(230, 230, 230);
 }
 .nav-list {
   
@@ -48,7 +48,7 @@ header{
   
   color: black;
   margin-left: 30px; 
-  font-size: 4vh;
+  font-size: 3vh;
   font-weight: 600;
   border-bottom: 6px solid transparent;
   transition: all.55s ease;
@@ -94,6 +94,8 @@ font-weight: 100;
 justify-content: center; /* Wyśrodkowuje zawartość w poziomie */
 align-items: center; /* Wyśrodkowuje zawartość w pionie */
 margin: 0 auto;
+
+text-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
 }
 
 .biuro p {
@@ -105,6 +107,7 @@ margin: 0 auto;
   align-items: center; /* Wyśrodkowuje zawartość w pionie */
   padding: 0 auto;
   text-align: center; /* Wyśrodkowuje tekst w poziomie */
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
 }
 
 .O-nas-text {
@@ -113,7 +116,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-padding: 0 80px;
+padding: 70px 80px;
 text-align: center;
 margin-top: 50px; 
 margin-bottom: 50px;
@@ -154,6 +157,9 @@ font-weight: 200;
 text-align: left;
 margin: 0 auto; /* Wyśrodkowanie tekstu */
 }
+.Cytat-text{
+  padding-left: 50px;
+}
 
 .Cytat h1 {
 width: 100%;
@@ -179,6 +185,7 @@ text-align: left;
 margin: 0 auto; /* Wyśrodkowanie tekstu */
 line-height: 2;
 margin-bottom: 300px;
+padding-top: 70px;
 
 
 
@@ -316,6 +323,10 @@ animation: animateWave_02   2.5s linear infinite;
   background-position-x: 0px;
 }
 }
+@media(max-width:2561px){
+
+}
+
 @media(max-width:1961px){
   .biuro {
 
@@ -369,7 +380,7 @@ animation: animateWave_02   2.5s linear infinite;
     right:-100%;
     width: 300px;
     height: 45vh;
-    background:grey;
+    background:rgb(204, 204, 204);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -402,21 +413,25 @@ animation: animateWave_02   2.5s linear infinite;
 @media(max-width:426px){
   .biuro h1{
       padding-top: 48%;
-         font-size: 45px;
+      font-size: 50px;
+         
+         
   }
   .biuro p{
     align-items: center;
     justify-content: center;
     
   }
-
+ .Cytat-text{
+  padding-left: 0px;
+ }
 
 }
 @media(max-width:376px){
 .biuro h1 {
   margin-top: 35px;
   font-size :  46px;
-  font-weight: 200;
+  
   
 }
 }.biuro p {
