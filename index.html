@@ -26,25 +26,36 @@
   </head>
 
   <body>
+   
     <header>
-      
+    
       <a class="logo" href="#">Lucrum</a>
       
       <ul class="nav-list" id="nav-list">
         <li><a href="#ONAS">O&nbsp;nas</a></li>
         <li><a href="#Uslugitxt">Usługi</a></li>
         <li><a href="kontakt.html">Kontakt</a></li>
-        <li><a href="#">Jakość</a></li>
+        <li><a href="#">Jakosc</a></li>
       </ul>
     <div class="bx bx-menu" id="menu-icon"></div>
     </header>
+    <section id="logoutButton">
+      <button  id="logoutButton" class="btn btn-outline-primary">Wyloguj</button>
+    </section>
+  
+
+
+
+
     <section class="biuro">
       <div class="biuro-text"></div>
       <h1>Biuro rachunkowe Lucrum</h1>
       <p>Dla wszystkich potrzeb związanych z rachunkowością</p>
     </section>
+
     <div class="scroll">
       <a href="#end"><i class="ri-arrow-down-s-fill"></i></a>
+      
     </div>
 
     <section class="O-nas" id="ONAS" >
@@ -114,8 +125,41 @@
     
     </footer>
 
+<script src="https://www.gstatic.com/firebasejs/10.12.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.1/firebase-database.js"></script>
 
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 <script src="script.js"></script>
+
+<script>
+
+let UserCreds=JSON.parse(sessionStorage.getItem("user.creds"));
+let UserInfo=JSON.parse(sessionStorage.getItem("user-info"));
+
+let Msghead=JSON.parse(sessionStorage.getItem("msg"));
+let GreetHead=JSON.parse(sessionStorage.getItem("greet"));
+let SignoutBtn=JSON.parse(sessionStorage.getItem("signoutbutton"));
+
+
+
+let Signout = ()=> {
+  sessionStorage.removeItem("user-creds");
+  sessionStorage.removeItem("user-info");
+  window.location.href='login.html'
+}
+
+let CheckCred =()=>{
+  if (!sessionStorage.getItem("user-creds"))
+  window.location.href = 'login.html'
+
+  
+}
+window.addEventListener('load', CheckCred);
+SignoutBtn.addEventListener('click',Signout);
+
+
+</script> 
+
 </html>
