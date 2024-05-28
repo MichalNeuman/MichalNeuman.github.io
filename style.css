@@ -7,7 +7,12 @@
 
 }
 
-
+#formularz_obliczeniowy{
+  margin-top: 100px;
+}
+#total{
+  font-weight: bold;
+}
 #logoutButton{
   background-color: #bfbfbf;
   position: fixed;
