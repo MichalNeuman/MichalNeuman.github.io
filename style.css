@@ -21,15 +21,7 @@
 #total{
   font-weight: bold;
 }
-#logoutButton{
-  background-color: #bfbfbf;
-  position: fixed;
-  z-index: 1000;
-  width: 100%;
-  background: transparent;
-  
-  
-}
+
 html{
   scroll-behavior: smooth;
 }
@@ -618,4 +610,5 @@ font-size: 3vh ;
     }
     
   }
+  
   
