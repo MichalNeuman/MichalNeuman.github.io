@@ -52,7 +52,7 @@ header{
   padding-right: 10%;
   padding-left: 5%;
   background: transparent;
-  background-color: rgb(230, 230, 230);
+  background-color: rgb(255, 255, 255);
 }
 .nav-list {
   
@@ -72,10 +72,17 @@ header{
 }
 
 .logo {
-  font-size: 30px;
-  font-weight: 700;
-  color: black;
+  display: flex;
+  align-items: center;
   margin: 50px; 
+  
+  max-width: 220px;
+
+}
+
+header a .nav-list{
+  background-image: url("logo.png");
+
 }
 .nav-list a:hover{
   border-bottom: 2px solid black;
@@ -498,7 +505,7 @@ font-size: 3vh ;
   margin-top: -20vh; 
   
   margin-left: 80%  ;
-  z-index: 1000; 
+  z-index: 999; 
 }
 .scroll i{
   display: block;
@@ -517,7 +524,7 @@ font-size: 3vh ;
 }
 
 .kontakt-body{
-  background: linear-gradient(#ffdad5,#fff7f9);
+  background: linear-gradient(#595959,#fff7f9);
   background-size: 100vh;
   box-sizing: border-box;
   margin: 0;
@@ -544,7 +551,7 @@ font-size: 3vh ;
   }
   .kontakt-lewo-tytul h2{
   font-weight: 600;
-  color: #a363aa;
+  color: #ffffff;
   font-size: 40px;
   margin-bottom:5px ;
   
@@ -553,7 +560,7 @@ font-size: 3vh ;
     border: none;
     width: 120px;
     height: 5px;
-    background-color: #a363aa;
+    background-color: #ffffff;
     border-radius: 10px;
     margin-bottom : 20px; 
   
@@ -565,7 +572,7 @@ font-size: 3vh ;
     outline: none;
     padding-left: 25px;
     font-weight: 500;
-    color: #666;
+    color: #000000;
     border-radius: 50px;
   
   
@@ -577,10 +584,10 @@ font-size: 3vh ;
   
   }
   .dane-kontakt:focus{
-    border: 2px solid #ff994f;
+    border: 2px solid #595959;
   }
   .dane-kontakt::placeholder{
-    color: #a9a9a9;
+    color: #595959;
   }
   .kontakt-lewo button{
     display: flex;
@@ -591,7 +598,7 @@ font-size: 3vh ;
     gap: 10px;
     border: none;
     border-radius: 50px;
-    background: linear-gradient(270deg, #ff994f,#fa6d86);
+    background: linear-gradient(270deg, #ffffff,#595959);
     cursor: pointer;
   
   }
