@@ -259,6 +259,9 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 }
+footer .social_icon{
+  max-width: 200vh;
+}
 footer .social_icon, footer .menu{
 position: relative;
 display: flex;
@@ -524,7 +527,7 @@ font-size: 3vh ;
 }
 
 .kontakt-body{
-  background: linear-gradient(#595959,#fff7f9);
+  background: linear-gradient(#fff7f9,#595959);
   background-size: 100vh;
   box-sizing: border-box;
   margin: 0;
@@ -551,7 +554,7 @@ font-size: 3vh ;
   }
   .kontakt-lewo-tytul h2{
   font-weight: 600;
-  color: #ffffff;
+  color: #595959;
   font-size: 40px;
   margin-bottom:5px ;
   
@@ -560,7 +563,7 @@ font-size: 3vh ;
     border: none;
     width: 120px;
     height: 5px;
-    background-color: #ffffff;
+    background-color: #595959;
     border-radius: 10px;
     margin-bottom : 20px; 
   
