@@ -237,7 +237,8 @@ text-align: left;
 margin-left: 20px;
 }
 .tloSzcyty{
-background-image: url('mountains-5727541_1920.jpg');
+  background-color: #595959;
+background-image: url();
 background-size: cover; /* Dopasowuje obraz do całego tła */
 background-position: center; /* Ustawia pozycję obrazu na środku tła */
 }
