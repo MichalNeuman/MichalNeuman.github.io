@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <title>Formularz Usług</title>
     <style>
-        
         body {
             display: flex;
             justify-content: center;
@@ -16,9 +15,44 @@
             margin: 0;
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;
-            background-image: url('');
+            background-image: url('texture-2068283_1920.jpg');
+        }
+        header {
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            
+        }
+        header .logo {
+            height: 50px;
+        }
+        header .nav-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        header .nav-list li {
+            margin: 0 10px;
+        }
+        header .nav-list li a {
+            text-decoration: none;
+            color: #000;
+        }
+        header .bx-menu {
+            display: none;
         }
         section#formularz_obliczeniowy {
+            
+            display: block;
             text-align: left;
             padding: 20px;
             border: 1px solid #ccc;
@@ -27,7 +61,7 @@
             background-color: #fff;
             max-width: 600px;
             width: 100%;
-            
+            margin-top: 18vh; /* Increased top margin to ensure no overlap */
         }
         .service {
             margin-bottom: 10px;
@@ -54,7 +88,7 @@
                     total += parseFloat(service.value);
                 }
             });
-            document.getElementById('total').textContent = 'Przewidywana cena: ' + total.toFixed(2) + ' PLN' ;
+            document.getElementById('total').textContent = 'Przewidywana cena: ' + total.toFixed(2) + ' PLN';
         }
     </script>
 </head>
