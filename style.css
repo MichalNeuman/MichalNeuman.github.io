@@ -4,7 +4,21 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
+  
+}
 
+section#formularz_obliczeniowy {
+            
+  display: block;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background-color: #fff;
+  max-width: 600px;
+  width: 100%;
+  margin-top: 19vh; /* Increased top margin to ensure no overlap */
 }
 
 #formularz_obliczeniowy{
@@ -18,6 +32,32 @@
             max-width: 400px;
             width: 100%;
 }
+.service {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.service input[type="checkbox"] {
+  margin-right: 10px;
+  width: 20px; /* Larger width for the checkbox */
+  height: 20px;
+}
+.total {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.cennik-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  background-image: url('texture-2068283_1920.jpg');
+}
+
 #total{
   font-weight: bold;
 }
@@ -408,7 +448,7 @@ animation: animateWave_02   2.5s linear infinite;
     top: 100%;
     right:-100%;
     width: 300px;
-    height: 45vh;
+    height: 38vh;
     background:rgb(204, 204, 204);
     display: flex;
     align-items: center;
@@ -663,3 +703,4 @@ font-size: 3vh ;
     max-width: 100px;
     margin-right: 20px;
 }
+
