@@ -263,7 +263,7 @@ justify-content: center;
 flex-direction: column;
 text-align: left;
 font-weight: 400;
-
+border-radius: 10px;
 }
 
 .Usługi .textUS ul {
